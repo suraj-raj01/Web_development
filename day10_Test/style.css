@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #193434;
+    color: white;
+}
+.navbar #start{
+    padding: 0px 5px;
+}
+.navbar #mid ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar #mid ul li{
+    padding: 0px 15px;
+    font-weight: 800;
+    color: white;
+}
+.navbar #mid #about{
+    color: tomato;
+}
+.navbar #end button{
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: red;
+}
+body{
+    background-color: #193434;
+}
+.hero{
+    margin: 0 auto;
+    height: 85vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    background-color: #193434;
+}
+.hero #box1{
+    height: 8vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 40px;
+    justify-content: start;
+    color: gray;
+}
+.hero #box2{
+    height: 10vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    justify-content: start;
+    font-weight: 800;
+    color: white;
+}
+.hero #box3{
+    height: 10vh;
+    width: 40%;
+    font-weight: 800;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 80px;
+    justify-content: start;
+}
+.hero #box3 p{
+    font-weight: 800;
+    font-size: 80px;
+    color: tomato;
+}
+.hero #box4{
+    font-size: 30px;
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+
+}

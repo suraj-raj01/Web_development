@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section #about{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('https://marketifythemes.net/html/trito/img/about/background.jpg');
+}
+section #about #photo{
+    height: 70vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #about #content{
+    height: 65vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+section #content #first{
+    font-size: 50px;
+    font-weight: bolder;
+}
+section #content #second{
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 20px 80px 0px 0px;
+}
+section #content #third #btn{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 10px 15px;
+}
+#experience{
+    position: absolute;
+    top: 480px;
+    left: 30px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+#experience #num{
+    font-weight: 800;
+    font-size: 40px;
+    color: red;
+}
+#experience #text{
+    font-weight: normal;
+    font-size: 20px;
+    padding: 0px 10px;
+    font-weight: 800;
+}

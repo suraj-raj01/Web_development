@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    height: 100vh;
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+}
+form input{
+    width: 60%;
+    padding: 8px 5px;
+}
+form button{
+    padding: 10px 25px;
+}

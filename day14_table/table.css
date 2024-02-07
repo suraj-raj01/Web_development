@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://marketifythemes.net/html/trito/img/hero/1.jpg');
+}
+.navbar,ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 10px 20px;
+}
+.navbar{
+border: 1px solid transparent;
+border-bottom-color: #24315E;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 10px 25px;
+}
+.navbar ul li #home{
+    color: orangered;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #24315E;
+}
+.navbar ul li a:hover{
+    color: orangered;
+}
+.navbar ul #downloadcv a{
+    padding: 12px 28px;
+    border: 2px solid #24315E;
+    background-color: #24315E;
+    color: white;
+}
+.navbar ul #downloadcv a:hover{
+    padding: 12px 28px;
+    color: #24315E;
+    border: 2px solid #24315E;
+    background-color: white;
+}
+.hero{
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+#content{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.hero #content #content-box1{
+    height: 40vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #24315E;
+}
+.hero #content #content-box1 #hii{
+    font-size: 35px;
+}
+.hero #content #content-box1 #name{
+    font-weight: 800;
+    font-size: 60px;
+}
+.hero #content #content-box1 #work{
+    font-weight: 700;
+    font-size: 16px;
+}
+.hero #content #content-box1 #button{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.hero #content #content-box1 #button a{
+    color: #24315E;
+}
+.hero #content #content-box1 #btn{
+    margin: 0px 30px 0px 0px;
+    padding: 10px 35px;
+    font-size: 18px;
+    border: 2px solid #24315E;
+    color: #24315E;
+}
+.hero #content #content-box1 #btn:hover{
+    background-color: #24315E;
+    color: white;
+    cursor: pointer;
+}
+.hero #content #content-box2{
+    height: 20vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero #content #content-box2 p{
+    color: #24315E;
+    font-style: italic;
+}
+#photo{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+#photo img{
+    width: 500px;
+    object-fit: cover;
+}
+#icons{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#icons i{
+    margin: 0px 10px;
+    padding: 15px 18px;
+    border-radius: 50px;
+    background-color: white;
+    color: #24315E;
+    font-size: 18px;
+}
+#icons i:hover{
+    color: white;
+    background-color: #24315E;
+}
+
+/* =================table style============== */
+
+table{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+table #client{
+    padding: 40px 0px;
+}
+td{
+    color: white;
+    font-size: 18px;
+}
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1510px;
+    background-color: #24315E;
+}
+table #img img{
+    margin: 0px 50px;
+    opacity: .8;
+}
+
+
+
+
+

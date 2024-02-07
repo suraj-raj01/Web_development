@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form>
+           <input type="text" name="name" required placeholder="enter your name">
+           <input type="email" name="email" required placeholder="enter your email">
+           <input type="password" name="password" required placeholder="enter your password">
+           <input type="tel" required placeholder="enter your mobile no" maxlength="10" minlength="10">
+           <input type="number" name="number" required placeholder="enter number">
+           <input type="date">
+           <input type="datetime-local">
+           <input type="file">
+           <input type="color">
+           <textarea required name="textarea" id="area" cols="47" rows="10" placeholder="comment here.."></textarea>
+           <button type="submit"> submit </button>
+        </form>
+    </section>
+    <ul type="none">
+        Gender
+        <ul type="none">
+            <li><input type="radio" name="gender"><label for="male">Male</label></li>
+            <li><input type="radio" name="gender"><label for="female">Female</label></li>
+            <li><input type="radio" name="gender"><label for="other">Other</label></li>
+        </ul>
+       </ul>
+</body>
+</html>

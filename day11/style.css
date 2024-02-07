@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box{
+    height: 200px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#box #box1 #box2 #box3   #box4 #box5{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    background-color: red;
+}

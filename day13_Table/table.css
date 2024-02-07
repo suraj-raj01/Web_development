@@ -1,0 +1,14 @@
+table{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+}
