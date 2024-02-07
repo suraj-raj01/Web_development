@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <form>
+          <input
+            type="text"
+            name="name"
+            required
+            placeholder="enter your name"
+          />
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="enter your email"
+          />
+          <input
+            type="password"
+            name="password"
+            required
+            placeholder="enter your password"
+          />
+          <input
+            type="tel"
+            required
+            placeholder="enter your mobile no"
+            maxlength="10"
+            minlength="10"
+          />
+          <input
+            type="number"
+            name="number"
+            required
+            placeholder="enter number"
+          />
+          <input type="date" />
+          <input type="datetime-local" />
+          <input type="file" />
+          <input type="color" /><br>
+          <textarea
+            required
+            name="textarea"
+            id="area"
+            cols="47"
+            rows="10"
+            placeholder="comment here.."
+          ></textarea><br>
+          <button type="submit">submit</button>
+        </form>
+        <ul type="none">
+          Gender
+          <ul type="none">
+            <li>
+              <input type="radio" name="gender" /><label for="male">Male</label>
+            </li>
+            <li>
+              <input type="radio" name="gender" /><label for="female"
+                >Female</label
+              >
+            </li>
+            <li>
+              <input type="radio" name="gender" /><label for="other"
+                >Other</label
+              >
+            </li>
+          </ul>
+        </ul>
+        <ul type="none">
+          <label for="skill">Skills</label>
+          <ul type="none">
+            <li>
+              <input type="checkbox" id="html" />
+              <label for="html">HTML</label>
+            </li>
+            <li>
+              <input type="checkbox" id="html" />
+              <label for="css">CSS</label>
+            </li>
+            <li>
+              <input type="checkbox" id="html" />
+              <label for="js">Javascript</label>
+            </li>
+            <li>
+              <input type="checkbox" id="angulat" />
+              <label for="angular">Angular</label>
+            </li>
+            <li>
+              <input type="checkbox" id="react" />
+              <label for="react">React</label>
+            </li>
+          </ul>
+        </ul>
+        <select>
+          <option>+91</option>
+          <option>+045</option>
+          <option>+00</option>
+          <option>01</option>
+          <option selected>+65</option>
+          <option>+93</option>
+        </select>
+        <input type="tel" maxlength="10" required placeholder="enter your mobile no." /><br /><br />
+        <textarea
+          name="textarea"
+          id="textarea"
+          cols="40"
+          rows="10"
+          placeholder="comment"
+        ></textarea
+        ><br /><br />
+
+        <label for="choice">CHOOSE ONE</label><br>
+        <input list="choice">
+        <datalist id="choice">
+            <option value="SURAJ"></option>
+            <option value="JAY"></option>
+            <option value="RAJAN"></option>
+            <option value="DEVANSH"></option>
+            <option value="SHUSHIL"></option>
+            <option value="PRASHANT"></option>
+            <option value="HIMANSHU"></option>
+            <option value="DEEPAK SIR"></option>
+            <option value="SHIVENDRA"></option>
+            <option value="AJAY"></option>
+        </datalist>
+      </body>
+    </html>
+  </body>
+</html>

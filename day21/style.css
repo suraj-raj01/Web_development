@@ -1,0 +1,20 @@
+form{
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    height: 20px;
+    margin-top: 10px;
+}
+input[type="text"],input[type="email"]{
+    /* outline: none; */
+    border: none;
+    color: red;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    outline-color: red;
+}
+input::placeholder{
+    color: aqua;
+}
