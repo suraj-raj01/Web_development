@@ -26,15 +26,23 @@ section #box1 #box-1{
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: space-around;
+    justify-content: center;
     height: 17vh;
     width: 90%;
 }
 section #box1 #box-1 #contact{
-    margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: orangered;
 }
+section #box1 #box-1 #contact #left,#right{
+    margin-top: -17px;
+    padding: 0 5px;
+}
+
 section #box1 #box-1 #drop{
     font-size: 50px;
     font-weight: bolder;
