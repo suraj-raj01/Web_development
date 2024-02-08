@@ -22,6 +22,7 @@ section #box1{
     justify-content: space-between;
     color: white;
 }
+
 section #box1 #box-1{
     display: flex;
     flex-direction: column;
