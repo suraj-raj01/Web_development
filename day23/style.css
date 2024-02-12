@@ -150,3 +150,9 @@ section #box2{
     border-radius: 50px;
     background-color: #24315E;
 }
+
+@media(max-width:425){
+    section{
+        display: block;
+    }
+}
